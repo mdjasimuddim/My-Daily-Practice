@@ -38,7 +38,7 @@
 
 ## Git Setup and Configuration
 <p>To download the git in your device click download</p>
-[download](https://git-scm.com/downloads)
+[download]('https://git-scm.com/downloads')
 
 __To show git version__  
 ```git --version```   
@@ -53,8 +53,10 @@ To see the Email what you have set in the terminal:
 ```git config user.email```  
 <p>You can change the username and email if you need to change according to config</p> 
   
+__How can we push a file/folder in github from git__   
 ```working Directory -> staging area -> local repo. -> remote repo.```   
 ```Test-area -> git add -> git commit-> git push```
+
 
 
 
