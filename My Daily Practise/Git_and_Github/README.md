@@ -59,6 +59,28 @@ __How can we push a file/folder in github from git__
 
 
 
+## __Git Command__
+### To show Which directory we are working:   
+```pwd```
+### To see all files:   
+```ls```
+### Create make dictionary/folder
+```mkdir folderName```
+### To see all hidden files
+``` ls -a ```
+### To initialize the git in your terminal:
+``` git init ```
+### Create new file  
+```touch fileName```
+### Open the file in windows
+```start fileName```
+### Open the file in linux
+``` open fileName ```
+### To see git status
+```git status ```
+
+
+
 
 
 
