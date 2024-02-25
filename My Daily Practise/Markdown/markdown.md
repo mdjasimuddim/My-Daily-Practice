@@ -60,7 +60,7 @@ __We use number of # according to heading number__
 
 
 ### Link
-[link name](url)
+[link name](link url)
 
 ### Image
 ![image name](src url)
