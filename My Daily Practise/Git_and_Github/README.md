@@ -179,7 +179,7 @@ Example -
 - git merge feature1
 ```
 
-![First](/images/1.png)
+![First](/images/First_forward.PNG)
 
 ## 3-way Merge
 ```
@@ -196,7 +196,7 @@ Example -
 
 ```
 
-<img src = "/C:\Users\Eastern Tech\Desktop\My Daily Practise\My Daily Practise\images\2.PNG">
+<img src = "/images/2_way.PNG">
 
 
 ## Merge Conflict
