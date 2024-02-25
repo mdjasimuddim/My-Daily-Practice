@@ -77,7 +77,9 @@ __How can we push a file/folder in github from git__
 ### Open the file in linux
 ``` open fileName ```
 ### To see git status
-```git status ```   
+```git status ```  
+### Delete a folder: 
+``` rm -rf “folder name” ```
 ## __To go Stagging area from working Directory__
 From Untracked to tracked file:
 - git add FolderName
@@ -117,6 +119,20 @@ From Untracked to tracked file:
 ``` git push -u origin master ```
 ### For Pull Request
 ``` git pull / git pull origin master ```
+
+## __Gitignore File__ 
+<p>.gitignore refers to sectret things that we do not want to share.</p>   
+
+### Example
+- test.txt
+- .env
+- *.txt (all txt file)
+- !main.txt (not main.txt)
+- text?.txt (text1, text2, text3 ....... .txt)
+- temp / (will be ignore inside all file in temp folder) 
+
+__if you write above list in .gitignore file, then these file will be hidden in your remote repository__.
+
 
 
 
