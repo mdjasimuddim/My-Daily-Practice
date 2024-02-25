@@ -66,7 +66,7 @@ __How can we push a file/folder in github from git__
 ```ls```
 ### Create make dictionary/folder
 ```mkdir folderName```
-### To see all hidden files
+### To see all files with hidden files
 ``` ls -a ```
 ### To initialize the git in your terminal:
 ``` git init ```
@@ -77,7 +77,49 @@ __How can we push a file/folder in github from git__
 ### Open the file in linux
 ``` open fileName ```
 ### To see git status
-```git status ```
+```git status ```   
+## __To go Stagging area from working Directory__
+From Untracked to tracked file:
+- git add FolderName
+- git add - A (stage all changed file in directory and sub-directories)
+- git add . (stage all changed file in directory but not sub-directories)
+- git add *. (directory wildcard)
+
+```For restore information -> git restore fileName```
+
+## From Staging to unstaging add:
+```git rm --cached fileName```
+## To see the difference between unstaging and staging area
+```git diff ``` 
+## Staging area to local Repository...
+### How to make a git commit:
+```git commit -m "just write text what about you do or why you want to commit" ```
+### To see all history
+```git log ```
+### Instead of git log, to see id and commits
+``` git log --oneline ```
+### Combine of Tracking/stagging and create local repository
+``` git add . && git commit -m "message" ```
+### To open folder in Visual Studio code
+```code .```
+### Move one commit to another commit 
+``` git checkout commitName ```
+### To delete all files from local Repository. to working directory
+``` git reset HEAD^ ```
+### From Local Repository to stagging area
+``` git reset --soft HEAD^ ```
+## Remote Repository
+### To check, the remote repository exist or not
+``` git remote ```
+### To move from local repo. to remote repo.
+``` git remote add origin "link of remote repo." ```
+### To push on master branch
+``` git push -u origin master ```
+### For Pull Request
+``` git pull / git pull origin master ```
+
+
+
 
 
 
