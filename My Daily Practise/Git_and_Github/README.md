@@ -178,8 +178,8 @@ Example -
 - git checkout master
 - git merge feature1
 ```
-![First](/images/1.png)
 
+![First](/images/1.png)
 
 ## 3-way Merge
 ```
