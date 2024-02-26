@@ -6,7 +6,7 @@
 - Keep track of Changes
 - Collaboration on Project
 
-## Other Version Control System
+## Other Version Control System and Repository
 1. GitLab
 2. BeanStalk
 3. PerForce
