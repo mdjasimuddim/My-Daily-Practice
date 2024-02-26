@@ -63,7 +63,7 @@ function myFunc(){
 myFunc()
 console.log(x)  // x is not defined
 ```
-
+## var variable
 __Using Var__   
 var is function scope and we can access it outside of block 
 ```javascript
@@ -90,6 +90,7 @@ if(true){
 }
 console.log(varVariable) // i am from var again
 ```
+## let variable
 __let can not be redeclared__
 ```javascript
 if(true){
@@ -108,8 +109,9 @@ if(true){
 }
 
 ```
+## const variable
 _Const is same as let_   
-__let can not be reassigned and redeclared__
+__const can not be reassigned and redeclared__
 
 ```javascript
 if(true){
@@ -119,7 +121,6 @@ if(true){
 }
 
 ```
-
 
 
 
