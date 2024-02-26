@@ -108,7 +108,7 @@ if(true){
 }
 
 ```
-_same as let_   
+_Const is same as let_   
 __let can not be reassigned and redeclared__
 
 ```javascript
