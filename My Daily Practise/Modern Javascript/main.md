@@ -22,7 +22,7 @@ function myFunc(){
     console.log(`${x} from myFunc()`);   //10
 }
 myFunc()
-console.log(x)  //undefined
+console.log(x)  //x is not defined
 ```
 
 __Javascript Variable Var can override the value of parent element and give the access to child__   
@@ -63,4 +63,65 @@ function myFunc(){
 myFunc()
 console.log(x)  // x is not defined
 ```
+
+__Using Var__   
+var is function scope and we can access it outside of block 
+```javascript
+if(true){
+    var varVariable = 'i am from var';
+}
+console.log(varVariable) // i am from var
+```
+__Using Let__   
+let is block scope and we can not access it outside of block
+```javascript
+if(true){
+    let letVariable = 'i am from var';
+}
+console.log(varVariable) // ReferenceError: x is not definded
+```
+
+__var can be redeclared__
+```javascript
+var varVariable = 'i am from var';
+console.log(varVariable) // i am from var
+if(true){
+    var varVariable = 'i am from var again';
+}
+console.log(varVariable) // i am from var again
+```
+__let can not be redeclared__
+```javascript
+if(true){
+    let letVariable = 'i am from let';
+    let letVariable = 'i am from let again';
+}
+console.log(letVariable) // Uncaught SyntaxError: Identifier 'letVariable' has already been declared
+```
+
+__But let can  be reassigned__
+```javascript
+if(true){
+    let letVariable = 'i am from let';
+     letVariable = 'i am from let again';
+     console.log(letVariable) //i am from let again
+}
+
+```
+_same as let_   
+__let can not be reassigned and redeclared__
+
+```javascript
+if(true){
+    const letVariable = 'i am from let';
+     letVariable = 'i am from let again';
+     console.log(letVariable) //Uncaught TypeError:Assignment to constant variable
+}
+
+```
+
+
+
+
+
 
