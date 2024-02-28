@@ -123,6 +123,39 @@ if(true){
 ```
 
 
+## Dynamic Typing
+passing data type with the value.
+```javascript
+let productName = "Mango"
+typeof productName  //String
+productName = true
+typeof productName  //Boolean
+```
 
+### Infinite loop
+```javascript
+const text = ` i don't repeat my code `;
+let number =  1;
+while(number<6){
+    console.log(`${text} is repeated infinite times until the browser crashes. `);
+}
+```
+_Due to the condition is always true._   
+
+### Dynamically access properties
+```javascript
+const profile = {
+    firstName:'jasim',
+    lastName:'uddim',
+    age:26,
+    profession:'web developer'
+}
+const surName = 'firstName'
+console.log(profile[surName]) // dynamically access value 
+
+for(let x in profile){
+    console.log(profile[x])  // dynamically access value
+}
+```
 
 
