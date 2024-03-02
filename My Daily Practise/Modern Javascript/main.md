@@ -157,5 +157,14 @@ for(let x in profile){
     console.log(profile[x])  // dynamically access value
 }
 ```
+## Execution context of Javascript
+1. Interpreter
+    - Slow Process
+    - Easy to Debug
+2. Compiler
+    - Faster Process
+    - System Crash & Hard to debug
 
+__Mainly, Javascript work on Just-in-time (JIT) Compiler__
 
+_Execution Context - do small pieces of code._
