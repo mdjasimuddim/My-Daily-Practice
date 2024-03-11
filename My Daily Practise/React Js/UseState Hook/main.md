@@ -91,3 +91,29 @@ import React, { useState } from 'react'
 }
 export default Todo;
 ```
+### useState with Previous State
+```javascript
+import React, { useState } from 'react'
+
+const Increment = () => {
+    const [count, setCount] = useState(0);
+  return (
+    <div>
+        {count}
+        <p>
+            <button type='button' onClick={()=> setCount((prevState)=> prevState + 1)}>
+                Add One
+            </button>
+        </p>
+        // This is not the correct way in React
+        <p>
+            <button type='button' onClick={()=>setCount(count+1)}>
+                Add Two
+            </button>
+        </p>
+    </div>
+  )
+}
+
+export default Increment
+```
