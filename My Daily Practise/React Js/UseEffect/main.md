@@ -1,6 +1,13 @@
 ## UseEffect Hook
 - working with side effects.
 
+## Responsibilites of React?
+- Render / re-render the UI & React to user Input/Actions.
+- Render the Jsx Code
+- Manage State & Props
+- React to Events/Input
+- Evaluating the State/Props Change
+
 ### Examples of side Effects
 - Fetching data from any api.
 - Updating the Dom
