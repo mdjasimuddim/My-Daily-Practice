@@ -29,4 +29,29 @@ function isSame(arr1, arr2){
 
 console.log(isSame([1, 2, 4, 5], [1, 4, 5, 2]))
 ```
+`Time Complexity O(n) and space Complexity O(n+n) = O(n) `
+```javascript
+function isSame(arr1, arr2) 
+{
+    let hashTable1 = {};
+    let hashTable2 = {};
+    if(arr1.length !== arr2.length) return false;
+
+    for(let x of arr1){
+        hashTable1[x] = (hashTable1[x] || 0) + 1;
+    }
+    for(let x of arr2){
+        hashTable2[x] = (hashTable2[x] || 0) + 1;
+    }
+
+    for(let elem in hashTable1){
+        if(!elem in hashTable1 || hashTable1[elem] != hashTable2[elem]){
+            return false;
+        }
+    }
+    return true;
+
+}
+console.log(isSame([1, 2, 4, 5], [1, 4, 5, 2]))
+```
 
