@@ -17,4 +17,18 @@ function twoSum(nums, target) {
 }
 console.log(twoSum([3, 2, 4], 6))
 ```
+`Time Complexity O(n)`
+```javascript
+function twoSum(nums, target) {
+    const hashTable = {};
+    for(let i = 0; i < nums.length; i++){
+        const want = target - nums[i];
+        if(want in hashTable){
+            return [hashTable[want], i];
+        }
+        hashTable[nums[i]] = i
+    }
+}
+console.log(twoSum([3, 2, 4], 6))
+```
 
